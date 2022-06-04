@@ -1,0 +1,104 @@
+
+body
+{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1
+{
+    font-size: 5.625rem;
+    margin:50px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+
+}
+h2
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #11999E;
+}
+a
+{
+    color: #11999E;
+}
+p
+{
+    line-height: 2;
+}
+hr
+{
+    border-style: dotted none none;
+    height: 0px;
+    width: 5%;
+    border-color: gray;
+    border-width: 5px;
+    margin: 100px auto;
+}
+.top-container
+{
+    background-color: #E4F9F5;
+    padding-top:100px;
+    position: relative;
+}
+
+.pro
+{
+    text-decoration: underline;
+}
+.bottom-cloud
+{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.skill-row
+{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.coding
+{
+    width: 55%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+.chess
+{
+    width: 35%;
+    float: right;
+    margin-right: 30px;
+}
+
+.middle-container
+{
+    margin: 100px 0;
+}
+.intro
+{
+    width: 30%;
+    margin: auto;
+}
+.skills-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
